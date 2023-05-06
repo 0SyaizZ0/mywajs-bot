@@ -44,13 +44,13 @@ global.set = {
         return bytes(get)
     },
     mywa: {},
-    owner: ["62851574894460"],
+    owner: ["6282154987269"],
     ses: {
         path: '.mywajs_auth',
         name: 'session'
     },
     opt: {
-        public: false,
+        public: true,
         antiCall: false,
         prefix: "#",
         URI: "mongodb+srv://wweb:mywa1337@cluster0.aybyqhr.mongodb.net/?retryWrites=true&w=majority",
